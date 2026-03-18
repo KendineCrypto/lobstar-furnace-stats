@@ -5,6 +5,8 @@
 
 import { NextResponse } from "next/server";
 
+export const dynamic = "force-dynamic";
+
 const HELIUS_RPC = `https://mainnet.helius-rpc.com/?api-key=${process.env.HELIUS_API_KEY}`;
 const FURNACE_PDA = "4b3Q2hMmeimC3D8xgPXwH9NGnYw6ZLdLAdik6RdgTPXy";
 const FURNACE_PROGRAM = "D16sRA7AgPqhPhRVoyvNHtJJPXjfccH5JTZhnr1MDWwo";
